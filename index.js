@@ -50,7 +50,8 @@ function convertToCelsius(f) {
   function getRandomInt(limit) {
     //limit == a number that is the highest range of numbers to choose from
     // TODO
-    return Math.round(Math.random()*limit);
+    const randNum = Math.floor(Math.random() * limit)
+    return randNum
   }
   
   // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
